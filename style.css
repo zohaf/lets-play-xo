@@ -5,8 +5,8 @@
 }
 
 body {
-  color: #3157A2;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F89849;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,14 +14,16 @@ body {
 }
 
 .container {
-  background:#F89849;
-  margin: 50px;
+  background: blue;
+  margin: 20px;
   padding: 50px;
   border-radius: 25px;
 }
 
 .title {
   text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+
 }
 
 .title span {
@@ -30,19 +32,24 @@ body {
 
 .update-bar {
   display: flex;
-  margin-top: 25px;
-  font-size: 25px;
-  justify-content: space-around;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  justify-content: space-between;
+  width: 400px;
   height: 30px; 
+  font-family: 'Alfa Slab One';
+  font-weight:bold;
+
  
 }
 
 .status span {
-  color: white;
+  color: #F90103;
 }
 
 .status .winner {
-  color: red;
+  color: #F90103;
 }
 
 .reset {
@@ -51,10 +58,10 @@ body {
 }
 
 .reset:hover {
-  color: #F89849;
+  color: blue;
   font-size: larger;
-  font-weight: 400;
-  text-decoration: underline;
+  font-weight: 300;
+  
   transition:7ms;
 }
 
@@ -68,7 +75,7 @@ body {
 }
 
 .game-cell {
-  background:#F89849;
+  background: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,10 +97,10 @@ body {
 
 .o::after {
   content: '○';
-  color:white;
+  color:#F90103;
   font-size: 225px;
 }
 
 .won::after {
-  color: #F90103;
+  color: rgb(185, 23, 137);
 }

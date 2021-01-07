@@ -4,8 +4,8 @@ const resetDiv = document.querySelector('.reset');
 const cellDivs = document.querySelectorAll('.game-cell');
 
 // game constants
-const xSymbol = '×';
-const oSymbol = '○';
+const xSymbol = 'x';
+const oSymbol = 'o';
 
 // game variables
 let gameIsLive = true;
@@ -15,10 +15,10 @@ let xIsNext = true;
 const handleWin = (letter) => { 
   gameIsLive = false;
   if (letter === 'x') {
-    statusDiv.innerHTML = `${letter} has won!`;
+    statusDiv.innerHTML = `${letter} you won!`;
     statusDiv.classList.add('winner')
   } else {
-    statusDiv.innerHTML = `<span>${letter} has won!</span>`;
+    statusDiv.innerHTML = `<span>${letter} you won!</span>`;
   }
 };
 
