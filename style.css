@@ -32,6 +32,7 @@ body {
 
 .update-bar {
   display: flex;
+  color:#F89849;
   margin-top: 0;
   font-size: 20px;
   font-weight: lighter;
@@ -97,10 +98,10 @@ body {
 
 .o::after {
   content: '○';
-  color:#F90103;
+  color: #F89849;
   font-size: 225px;
 }
 
 .won::after {
-  color: rgb(185, 23, 137);
+  color:#F90103;
 }
