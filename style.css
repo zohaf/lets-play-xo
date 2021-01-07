@@ -6,9 +6,11 @@
 
 body {
   color: #3157A2;
-  display: flex;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -26,25 +28,34 @@ body {
   color:white;
 }
 
-.status-action {
+.update-bar {
   display: flex;
   margin-top: 25px;
   font-size: 25px;
   justify-content: space-around;
   height: 30px; 
-  text-decoration: underline;
+ 
 }
 
 .status span {
   color: white;
 }
 
+.status .winner {
+  color: red;
+}
+
 .reset {
   cursor: pointer;
+   
 }
 
 .reset:hover {
-  color: white;
+  color: #F89849;
+  font-size: larger;
+  font-weight: 400;
+  text-decoration: underline;
+  transition:7ms;
 }
 
 .game-grid {
@@ -79,7 +90,7 @@ body {
 
 .o::after {
   content: '○';
-  color: #F2EBD3;
+  color:white;
   font-size: 225px;
 }
 
