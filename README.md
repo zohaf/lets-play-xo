@@ -1,7 +1,3 @@
-# project
+### X - O 
 
-### list 
-
-<a></a>
-
-this is a link to [the w3c] (http://)
+when we were kids, we use to call tic tac toe XO - let's play X O !
