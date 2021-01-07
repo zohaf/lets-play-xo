@@ -46,7 +46,7 @@ body {
 }
 
 .status span {
-  color: #F90103;
+  color: #21e221;;
 }
 
 .status .winner {
@@ -60,10 +60,11 @@ body {
 
 .reset:hover {
   color: blue;
-  font-size: larger;
+  font-size: 24px;
   font-weight: 300;
   
-  transition:7ms;
+  transition:10sms;
+  transform-origin:bottom;
 }
 
 .game-grid {
@@ -98,10 +99,16 @@ body {
 
 .o::after {
   content: '○';
-  color: #F89849;
-  font-size: 225px;
+  color: #21e221;
+  font-size: 205px;
+  align-items: center;
+  justify-content: center;
 }
 
 .won::after {
-  color:#F90103;
+  transition: 7ms;
+  transform-origin: center;
+  font-size: 270px;
+ 
+
 }

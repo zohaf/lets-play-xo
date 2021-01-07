@@ -15,10 +15,11 @@ let xIsNext = true;
 const handleWin = (letter) => { 
   gameIsLive = false;
   if (letter === 'x') {
-    statusDiv.innerHTML = `${letter} you won!`;
-    statusDiv.classList.add('winner')
+    statusDiv.innerHTML = `${letter} be happy - you won!`;
+    statusDiv.classList.add('winner');
   } else {
-    statusDiv.innerHTML = `<span>${letter} you won!</span>`;
+    statusDiv.innerHTML = `<span>${letter} you won! you rock!</span>`;
+    statusDiv.classList.add('winner');
   }
 };
 
